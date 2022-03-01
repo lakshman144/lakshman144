@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>partfolio</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<meta charset="UTF-8">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;0,600;1,100;1,200;1,800&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+<section class="header">
+	<nav>
+		<a href="#"> <img src="image/5.png"></a>
+		<div class="nav-linkers" id="navLinks">
+					<i class="fas fa-times" onclick="hidemenu()"></i>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">servies</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">contact</a></li>
+		</ul>
+		</div>
+		<i class="fas fa-bars" onclick="showmenu()"></i>
+	</nav>
+	
+ <div class="text-box">
+ 	<h1>kayakokula lakshman</h1>
+ 	<p>Two-dimensional space is a geometric setting in which two values the concept see dimension.
+	</p>	
+	<a href="#" class="hero-btn">LAKSHMAN</a>	
+ </div>
+
+</section>
+
+
+<script>
+	var navLink= document.getElementById('navLink');
+	function showmenu(){
+		navLinks.style.right="0";
+	}
+	function hidemenu(){
+				navLinks.style.right="-200px";
+
+
+	}
+</script>
+</body>
+</html>
